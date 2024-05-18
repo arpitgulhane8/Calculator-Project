@@ -1,4 +1,5 @@
 const display= document.getElementById("display");
+console.log(display);
 
 function aadtodisplay(input)
 {
@@ -19,6 +20,7 @@ function calculate()
 {
     try{
         display.value=eval(display.value);
+        
        }
 
     catch(error){
